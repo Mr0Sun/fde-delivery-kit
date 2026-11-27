@@ -8,6 +8,8 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.165.0",
+    "pymupdf>=2.2",
+    "python-docx>=1.2.0",
 ]
 
 [project.scripts]
